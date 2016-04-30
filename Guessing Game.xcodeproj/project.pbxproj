@@ -12,6 +12,7 @@
 		D81332971CD4D6FB00E1642F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D81332951CD4D6FB00E1642F /* Main.storyboard */; };
 		D81332991CD4D6FB00E1642F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D81332981CD4D6FB00E1642F /* Assets.xcassets */; };
 		D813329C1CD4D6FB00E1642F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D813329A1CD4D6FB00E1642F /* LaunchScreen.storyboard */; };
+		D8F60BC61CD4EE6900793857 /* interrogatiion.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F60BC51CD4EE6900793857 /* interrogatiion.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D81332981CD4D6FB00E1642F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D813329B1CD4D6FB00E1642F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D813329D1CD4D6FB00E1642F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8F60BC51CD4EE6900793857 /* interrogatiion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = interrogatiion.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				D81332911CD4D6FB00E1642F /* AppDelegate.swift */,
 				D81332931CD4D6FB00E1642F /* ViewController.swift */,
+				D8F60BC51CD4EE6900793857 /* interrogatiion.png */,
 				D81332951CD4D6FB00E1642F /* Main.storyboard */,
 				D81332981CD4D6FB00E1642F /* Assets.xcassets */,
 				D813329A1CD4D6FB00E1642F /* LaunchScreen.storyboard */,
@@ -126,6 +129,7 @@
 				D813329C1CD4D6FB00E1642F /* LaunchScreen.storyboard in Resources */,
 				D81332991CD4D6FB00E1642F /* Assets.xcassets in Resources */,
 				D81332971CD4D6FB00E1642F /* Main.storyboard in Resources */,
+				D8F60BC61CD4EE6900793857 /* interrogatiion.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +295,7 @@
 				D81332A21CD4D6FB00E1642F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
