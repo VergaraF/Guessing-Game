@@ -17,17 +17,28 @@ class ViewController: UIViewController {
     @IBAction func guessButton(sender: AnyObject) {
         let randomNum:Int = Int(arc4random_uniform(6))
         
-        if (Int(numberGivenByUser.text!)! == randomNum){
-            attemptResultLabel.textColor = UIColor.greenColor()
-            attemptResultLabel.text = "Correct! The number was \(randomNum)"
-        }else{
-            attemptResultLabel.textColor = UIColor.redColor()
-            attemptResultLabel.text = "Sorry! The number was \(randomNum)"
+        let userInput = Int(numberGivenByUser.text!)
+        
+        if (userInput != nil ){
             
+        
+            if (Int(numberGivenByUser.text!)! == randomNum){
+                setLabel("Correct! The number was \(randomNum)", color: UIColor.greenColor())
+            }else{
+                setLabel("Sorry! The number was \(randomNum)", color: UIColor.redColor())
+            }
+            
+        }else{
+            setLabel("Please insert a valid number", color: UIColor.redColor())
         }
         
         attemptResultLabel.hidden = false;
         
+    }
+    
+    func setLabel(str:String, color:UIColor){
+        attemptResultLabel.textColor = color;
+        attemptResultLabel.text = str
     }
     
     
